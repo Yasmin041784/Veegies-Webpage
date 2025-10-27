@@ -15,7 +15,6 @@ div, section, span, ul, li, a {
 
     /* Configurações */
 header {
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     padding: 1em 2.5em;
