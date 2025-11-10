@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,78 @@
 </head>
 
 <body>
-    <section id="inicio">
-        <header>
-            <a href="#"><img id="logo" src="image/logoVegie.png" alt="Site's logo"></a>
+    <header>
+        <a href="#"><img id="logo" src="image/logoVegie.png" alt="Site's logo"></a>
 
-            <ul id="menu">
-                <li><a href="#inicio"> Inicio </a></li>
-                <li><a href="#sobrenos"> Sobre Nos </a></li>
-                <li><a href="#produtos"> Produtos </a></li>
-                <li><a href="#receitas"> Receitas </a></li>
-                <li><a href="#contactos"> Contactos </a></li>
-            </ul>
-        </header>
+        <ul id="menu">
+            <li><a href="#inicio"> Inicio </a></li>
+            <li><a href="#sobrenos"> Sobre Nos </a></li>
+            <li><a href="#produtos"> Produtos </a></li>
+            <li><a href="#receitas"> Receitas </a></li>
+            <li><a href="#contactos"> Contactos </a></li>
+        </ul>
+    </header>
+
+    <section id="inicio">
+        <h1></h1>
     </section>
 
-    <section id="sobrenos"><h1> Sobre Nós </h1></section>
-    <section id="produtos"><h1> Produtos </h1></section>
-    <section id="receitas"><h1> Receitas </h1></section>
-    <section id="contactos"><h1> Contactos </h1></section>
+    <section id="sobrenos">
+        <h1> Sobre Nós </h1>
+        <div class="sobrenos_p">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing. </p>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h1> Produtos </h1>
+    </section>
+
+    <section id="receitas">
+        <h1> Receitas </h1>
+        <div id="card_receita">
+            <div class="card_receita_image">
+                <img src="image/cake.png" alt="Receita 1" style="width: 100%">
+                <div class="card_receita_text">
+                    <h4> Bolo Veggie </h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing. </p>
+                </div>
+            </div>
+
+            <div class="card_receita_image">
+                <img src="image/burger.png" alt="Receita 2" style="width: 100%">
+                <div class="card_receita_text">
+                    <h4> Burger Veggie </h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing. </p>
+                </div>
+            </div>
+
+            <div class="card_receita_image">
+                <img src="image/massa.png" alt="Receita 3" style="width: 90%">
+                <div class="card_receita_text">
+                    <h4> Massa Veggie </h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing. </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contactos">
+        <h1> Contactos </h1>
+    </section>
 
     <footer>
-        <div class="card">
-            <div class="image-container">
+        <div id="card_footer">
+            <div class="card_footer_image">
                 <img src="image/logoVegie.png" alt="Cardlogo" style="width:20%">
             </div>
-            <div class="container">
+            <div class="card_footer_text">
                 <h4><b>*Vegan brand*</b></h4>
                 <p>Vegan products for a cause</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
